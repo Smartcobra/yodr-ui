@@ -16,6 +16,7 @@ import ClinicDashboardBody from "./components/Clinic/clinic-dashboard/ClinicDash
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import NewSidebar from "./components/Doctor/NewSidebar";
+import DoctorSpecialization from "./components/Doctor/DoctorSpecialization";
 
 const ClinicProfile = lazy(() => import("./components/Clinic/clinic-registration/ClinicProfile"));
 const DoctorProfile = lazy(() => import("./components/Doctor/DoctorProfile"));
@@ -75,6 +76,8 @@ const App = () => {
           }
         />
         <Route path="/clinic-dashboard" element={<ClinicDashboardBody />} />
+          <Route path="/doctor-profile" element={<DoctorSpecialization />} />
+
         <Route path="/dashboard" element={<PersonalDashboard />} />
         <Route path="/clinic-profile" element={<ClinicProfile />} />
         <Route path="/doctor-registration" element={<DoctorRegistration />} />
