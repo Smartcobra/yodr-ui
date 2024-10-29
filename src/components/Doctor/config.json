@@ -1,0 +1,498 @@
+[
+  {
+    "id": "username",
+    "label": "Name",
+    "placeholder": "Enter Your Name",
+    "name": "username",
+    "type": "text",
+    "tag": "input",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "criteria": [
+      "NAME",
+      "MIN5CHAR"
+    ]
+  },
+  {
+    "id": "email",
+    "label": "Email",
+    "name": "user Email",
+    "type": "text",
+    "placeholder": "Enter Your Email",
+    "tag": "input",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "value": "",
+    "criteria": [
+      "EMAILREQ",
+      "EMAIL"
+    ]
+  },
+  {
+    "id": "phoneNo",
+    "label": "Phone Number",
+    "type": "number",
+    "name": "userPhoneNo",
+    "placeholder": "Enter Your Phone Number.",
+    "tag": "input",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "value": "",
+    "criteria": [
+      "MOBILEREQ",
+      "PHONE"
+    ]
+  },
+  {
+    "id": "gender",
+    "label": "Gender",
+    "type": "select",
+    "name": "gender",
+    "options": [
+      {
+        "value": "male",
+        "label": "Male"
+      },
+      {
+        "value": "female",
+        "label": "Female"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      }
+    ],
+    "tag": "select",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "criteria": [
+      "GENDER"
+    ]
+  },
+  {
+    "id": "birthdate",
+    "name": "birthdate",
+    "label": "Year of Birth",
+    "type": "date",
+    "placeholder": "Enter date",
+    "tag": "date",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "criteria": [
+      "DATE"
+    ]
+  },
+  {
+    "id": "textarea",
+    "name": "textarea",
+    "label": "Biography",
+    "type": "textarea",
+    "placeholder": "Write your biography here...",
+    "tag": "textarea",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "criteria": [
+      "REQUIRED"
+    ]
+  },
+  {
+    "id": "address",
+    "label": "Address",
+    "placeholder": "Enter Your Address",
+    "name": "address",
+    "type": "text",
+    "tag": "address",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "criteria": [
+      "ADDRESSREQ",
+      "ADDRESS"
+    ]
+  },
+  {
+    "id": "pincode",
+    "label": "Pincode",
+    "placeholder": "Enter Your Pincode",
+    "name": "pincode",
+    "type": "number",
+    "tag": "address",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "criteria": [
+      "POSTALCODEREQ",
+      "POSTALCODE"
+    ]
+  },
+  {
+    "id": "selectCity",
+    "label": "City",
+    "type": "select",
+    "name": "city",
+    "options": [
+      {
+        "value": "bhubaneswar",
+        "label": "Bhubaneswar"
+      },
+      {
+        "value": "cuttack",
+        "label": "Cuttack"
+      },
+      {
+        "value": "khurdha",
+        "label": "Khurdha"
+      }
+    ],
+    "tag": "selectAddress",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "criteria": [
+      "CITYREQ"
+    ]
+  },
+  {
+    "id": "selectState",
+    "label": "State",
+    "type": "select",
+    "name": "state",
+    "options": [
+      {
+        "value": "odisha",
+        "label": "Odisha"
+      },
+      {
+        "value": "goa",
+        "label": "Goa"
+      },
+      {
+        "value": "uttarpradesh",
+        "label": "Utter Pradesh"
+      }
+    ],
+    "tag": "selectAddress",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "criteria": [
+      "STATEREQ"
+    ]
+  },
+  {
+    "id": "selectSpecialization",
+    "label": "Specialization",
+    "type": "select",
+    "name": "specialization",
+    "options": [
+      {
+        "value": "addictionmedicine",
+        "label": "Addiction Medicine"
+      },
+      {
+        "value": "addictionpsychiarty",
+        "label": "Addiction Psychiarty"
+      },
+      {
+        "value": "adultcardiacanesthesiology",
+        "label": "Adult Cardiac Anesthesiology"
+      }
+    ],
+    "tag": "selectSpecialization",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "criteria": [
+      "SPECIALIZATION"
+    ]
+  },
+  {
+    "id": "specializationType",
+    "label": "Type",
+    "type": "select",
+    "name": "type",
+    "options": [
+      {
+        "value": "allopathy",
+        "label": "Allopathy"
+      },
+      {
+        "value": "homeopathy",
+        "label": "Homeopathy"
+      },
+      {
+        "value": "ayurvedic",
+        "label": "Ayurvedic"
+      }
+    ],
+    "tag": "selectSpecialization",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "criteria": [
+      "SPECIALIZATIONTYPE"
+    ]
+  },
+  {
+    "id": "degree",
+    "label": "Degree",
+    "placeholder": "Enter Degree",
+    "name": "degree",
+    "type": "text",
+    "tag": "degree",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "section": "education",
+    "criteria": [
+      "ENTERDEGREE",
+      "MIN5CHAR"
+    ]
+  },
+  {
+    "id": "degreeCollege",
+    "label": "College/Institute",
+    "placeholder": "Enter Your College/Institute",
+    "name": "college",
+    "type": "text",
+    "tag": "degree",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "section": "education",
+    "criteria": [
+      "ENTERCOLLEGE",
+      "MIN5CHAR"
+    ]
+  },
+  {
+    "id": "degreeStart",
+    "name": "startDate",
+    "label": "Start Year",
+    "type": "date",
+    "placeholder": "Enter date",
+    "tag": "degreeYear",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "section": "education",
+    "criteria": [
+      "DATE"
+    ]
+  },
+  {
+    "id": "degreeEnd",
+    "name": "startEnd",
+    "label": "Year of Completion",
+    "type": "date",
+    "placeholder": "Enter date",
+    "tag": "degreeYear",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "section": "education",
+    "criteria": [
+      "DATE"
+    ]
+  },
+  {
+    "id": "experience",
+    "label": "Hospital Name",
+    "placeholder": "Enter Hospital Name",
+    "name": "hospital",
+    "type": "text",
+    "tag": "hospital",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "section": "experience",
+    "criteria": [
+      "HOSPITAL",
+      "MIN5CHAR"
+    ]
+  },
+  {
+    "id": "experienceDeg",
+    "label": "Designation",
+    "placeholder": "Enter Your Designation",
+    "name": "designation",
+    "type": "text",
+    "tag": "hospital",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "section": "experience",
+    "criteria": [
+      "DEGIGNATION",
+      "MIN5CHAR"
+    ]
+  },
+  {
+    "id": "expStart",
+    "name": "startDate",
+    "label": "From",
+    "type": "date",
+    "placeholder": "Enter date",
+    "tag": "expYear",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "errorMsg": "",
+    "section": "experience",
+    "criteria": [
+      "DATE"
+    ]
+  },
+  {
+    "id": "expEnd",
+    "name": "startEnd",
+    "label": "To",
+    "type": "date",
+    "placeholder": "Enter date",
+    "tag": "expYear",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "section": "experience",
+    "errorMsg": "",
+    "criteria": [
+      "DATE"
+    ]
+  },
+  {
+    "id": "awardName",
+    "label": "Award",
+    "placeholder": "Enter Award Name",
+    "name": "award",
+    "type": "text",
+    "tag": "awardName",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "section": "award",
+    "criteria": [
+      "AWARD",
+      "MIN5CHAR"
+    ]
+  },
+  {
+    "id": "awardName",
+    "label": "Upload Document",
+    "placeholder": "",
+    "name": "awardfile",
+    "type": "file",
+    "tag": "awardName",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "section": "award",
+    "criteria": [
+      "CHOOSEFILE"
+    ]
+  },
+  {
+    "id": "awardYear",
+    "name": "awardyear",
+    "label": "Month/Year",
+    "type": "date",
+    "placeholder": "Enter date",
+    "tag": "awardYear",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "section": "award",
+    "errorMsg": "",
+    "criteria": [
+      "DATE"
+    ]
+  },
+  {
+    "id": "awardDescription",
+    "name": "description",
+    "label": "Description",
+    "type": "textarea",
+    "placeholder": "Write Description...",
+    "tag": "awardDescription",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "section": "award",
+    "errorMsg": "",
+    "criteria": [
+      "DATE"
+    ]
+  },
+  {
+    "id": "registrationNo",
+    "label": "Registration No",
+    "placeholder": "Enter Registration Number",
+    "name": "registratonno",
+    "type": "number",
+    "tag": "registrationName",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "section": "registration",
+    "criteria": [
+      "REGISTRATION",
+      "MIN5CHAR"
+    ]
+  },
+  {
+    "id": "registrationFile",
+    "label": "Upload Document",
+    "placeholder": "",
+    "name": "registratonfile",
+    "type": "file",
+    "tag": "registrationName",
+    "errorMsg": "",
+    "value": "",
+    "hasError": false,
+    "isRequired": true,
+    "section": "registration",
+    "criteria": [
+      "CHOOSEFILE"
+    ]
+  },
+  {
+    "id": "registrationYear",
+    "name": "registrationYear",
+    "label": "Year",
+    "type": "date",
+    "placeholder": "Enter date",
+    "tag": "registrationYear",
+    "value": "",
+    "isRequired": true,
+    "hasError": false,
+    "section": "registration",
+    "errorMsg": "",
+    "criteria": [
+      "DATE"
+    ]
+  }
+]

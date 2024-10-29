@@ -1,0 +1,37 @@
+.body {
+  margin: 0 auto;
+}
+
+@keyframes slider {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.logos:before,
+.logos:after {
+  position: absolute;
+  width: 250px;
+  height: 21.8%;
+  z-index: 2;
+  content: "";
+  border-radius: 20px;
+}
+
+.logos:before {
+    /* left: 0; */
+    top: 88%;
+  background: -webkit-linear-gradient(left, #c6effb 10%, rgba(0, 0, 0, 0) 100%);
+}
+
+.logos:after {
+  right: 4%;
+  top: 88%;
+  background: -webkit-linear-gradient(right,#c6effb 10%, rgba(0, 0, 0, 0) 100%);
+}
+
+.logos-slide {
+  animation: 20s slider infinite linear;
+}

@@ -1,0 +1,12 @@
+.hide {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: -170px;
+}
+
+.logo-container:hover .hide{
+   display: block; 
+}
+
+
